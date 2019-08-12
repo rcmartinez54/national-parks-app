@@ -17,7 +17,7 @@ function showResults(responseJson) {
             `<li>
                 <h3>${responseJson.data[i].fullName}</h3>
                 <p>${responseJson.data[i].description}</p>
-                <a href="${responseJson.data[i].url}"><p>Visit the ${responseJson.data[i].name} Website</p></a>
+                <a href="${responseJson.data[i].url}" target="_blank"><p>Visit the ${responseJson.data[i].name} Website</p></a>
             </li>`
         )
     };
