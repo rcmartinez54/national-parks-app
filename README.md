@@ -1,0 +1,1 @@
+This is an app that allows users to search for National Parks in the state they are or will be visiting.
