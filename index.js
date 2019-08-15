@@ -28,7 +28,7 @@ function getParks(query, limit=10) {
     let stateCode = $('#js-search-state').val();
     const params = {
         api_key: apiKey,
-        q: query,
+        // q: query,
         stateCode: stateCode,
         limit
     };
